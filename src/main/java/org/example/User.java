@@ -4,7 +4,7 @@ public class User {
     private String name;
     private int age;
 
-    public User(String name, int age) throws IllegalAccessException{
+    public User(String name, int age) throws IllegalAccessException {
         if (name == null) {
             throw new IllegalAccessException("Имя не может быть пустым");
         }
