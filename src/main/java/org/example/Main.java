@@ -12,7 +12,7 @@ public class Main {
             } else {
                 System.out.println(exception);
             }
-        }finally {
+        } finally {
             System.out.println("Пользователь создан");
         }
     }
